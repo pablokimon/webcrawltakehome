@@ -24,7 +24,7 @@ Suppose you want to understand more about these hosts and their dependent reques
 Some ideas:
 
 * what does the distribution of dependent requests across hosts look like?  What other basic statistics might be interesting to describe this data?
-
+<img src ='./img/distributionOfDependentRequests.png' >
 Heavily skewed with a very long tail. 
 In fact, looking at the summary statistics below, we can see 1/4 have 1 request, half have less than 5 and 3/4 have less than 18 request, while the last quartile slowly rockets up to 1430 requests!
 
